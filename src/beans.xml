@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="CategoryService" class="com.tonbby.service.impl.CategoryServiceImpl"></bean>
+	<bean id="ProductService" class="com.tonbby.service.impl.ProductServiceImpl"></bean>
+	<bean id="UserService" class="com.tonbby.service.impl.UserServiceImpl"></bean>
+
+   <bean id="ProductDao" class="com.tonbby.dao.impl.ProductDaoImpl"/>
+   <bean id="UserDao" class="com.tonbby.dao.impl.UserDaoImpl"/>
+   <bean id="CategoryDao" class="com.tonbby.dao.impl.CategoryDaoImpl"/>
+</beans>
